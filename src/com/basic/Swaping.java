@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Swaping {
     public static void main(String[] args) {
-        
+
         int[] arr = { 1,3,5,7,8,9,0};
         Swaping sw = new Swaping();
         int[] arr1 = sw.Rswap(arr);
