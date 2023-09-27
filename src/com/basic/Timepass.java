@@ -5,8 +5,8 @@ public class Timepass {
 
         int[] arr= {1,2,3,4,5,6};
         StringBuilder s = new StringBuilder();
-        for (int i = 0; i < arr.length; i++) {
-            s.append(arr[i]);
+        for (int j : arr) {
+            s.append(j);
         }
         int b = Integer.parseInt(s.toString());
         System.out.println(b);
